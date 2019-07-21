@@ -1,0 +1,47 @@
+
+<div class="container-fluid" style="background-color:rgb(236, 59, 28);color:#fff;height:100px;">
+        <h1> Affix effect</h1>
+        <p>Fixed (sticky) navbar on scroll</p>
+     </div>
+<nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="100">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#abc">
+                <span class="icon-bar"></span>    
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a  class="navbar-brand">Photo Gallery</a>
+        </div>
+        <div class="collapse navbar-collapse" id="abc">
+        <ul class="nav navbar-nav navbar-right">
+            <li routerLinkActive="active"><a routerLink="/home"  >Home</a></li>
+            <li routerLinkActive="active"><a routerLink="/contact">Contact</a></li>
+            <!-- <li routerLinkActive="active"><a routerLink="/career" >Career</a></li> -->
+            <!-- <li routerLinkActive="active"><a routerLink="/product" >Contact</a></li> -->
+        </ul>
+        </div>
+    </div>
+</nav>
+<div class="container-fluid" style="">
+    <router-outlet></router-outlet>
+</div>
+<button type="button" id="abcd" style="position:fixed; bottom:10px; right: 10px; opacity: 0.8" class="btn btn-danger "><i class='fa fa-arrow-up'></i></button>
+<footer>
+    <div class="container-fluid" style="background: rgb(46, 39, 39);">
+        <div class=" text-center" >
+            <div class="footerIcons" style="padding: 20px;">
+           <a href="https://www.facebook.com" target="_blank"><i class="fa fa-twitter"></i></a>
+           <a href="https://www.facebook.com" target="_blank"><i class="fa fa-linkedin"></i></a>
+           <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook-square"></i></a>
+           <a href="https://www.facebook.com" target="_blank"><i class="fa fa-google"></i></a>
+        </div>
+        
+        </div>
+    </div>
+</footer>
+<script>
+
+        
+    alert("fdfsdfdsfsd");
+      </script>
